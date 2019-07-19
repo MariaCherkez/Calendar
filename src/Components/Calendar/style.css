@@ -1,0 +1,260 @@
+.container {
+  margin: 0 auto;
+  width: max-content;
+  height: max-content;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 50px;
+  width: 250px;
+}
+
+table caption {
+  background-color: #0B3157;
+  padding: 20px 15px 5px 15px;
+  width: 270px;
+}
+
+thead {
+  background-color: #0B3157;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 8px;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+table th {
+  font-weight: normal;
+  text-align: center;
+}
+
+table td {
+  padding: 6px;
+  font-size: 12px;
+  color: #0B3157;
+  font-weight: bold;
+  text-align: center;
+}
+
+.event {
+  border-bottom: 2px solid #45B4B7;
+  border-radius: 1px;
+}
+
+.weekends {
+  background-color: #F2F2F2;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.btnNavStyle {
+  background: inherit;
+  color: #45B4B7;
+  border: none;
+  font-size: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.variatnsViewContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #0B3157;
+  padding-top: 5px;
+}
+
+.btWeekMonthStyle {
+  background: rgba(0, 0, 0, 0);
+  border: 1.2px solid #254769;
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 25px;
+  padding: 3px 13px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.btnAddEvent {
+  height: 12px;
+  width: 12px;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  border: none;
+}
+
+.addEventContainer {
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.btnNavStyle:focus,
+.btWeekMonthStyle:focus,
+.addEventContainer:focus,
+.btnAddEvent:focus,
+input:focus {
+  outline: none;
+}
+
+.btOk {
+  background: url('https://cdn1.savepice.ru/uploads/2019/7/19/3d77776954f4d76df5a94f55b1188b77-full.png');
+  background-size: cover;
+}
+
+.btOkD {
+  background: url('https://cdn1.savepice.ru/uploads/2019/7/19/3d77776954f4d76df5a94f55b1188b77-full.png');
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.btCnl {
+  background: url('https://cdn1.savepice.ru/uploads/2019/7/19/64f65e8f826cfd8c7cda9300c3db01e2-full.png');
+  background-size: cover;
+}
+
+.btAddEvent {
+  background: rgba(0, 0, 0, 0);
+  border: 1.2px solid #45B4B7;
+  color: #45B4B7;
+  border-radius: 100%;
+  width: 27px;
+  height: 27px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.arrow {
+  background: url('https://cdn1.savepice.ru/uploads/2019/7/19/d657f8503f571a336493c625312895cd-full.png');
+  background-size: cover;
+  height: 8px;
+  width: 8px;
+  margin-left: 5px;
+}
+
+.month {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+  text-align: center;
+}
+
+.day {
+  display: flex;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.today {
+  border-radius: 5px;
+  background-color: #0B3157;
+  color: #fff;
+}
+
+.select {
+  background: #D0F1F2;
+  border-radius: 5px;
+  color: black;
+}
+
+.eventTitle {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  padding: 5px 0;
+  opacity: 0.7;
+  font-weight: normal;
+}
+
+.eventContent {
+  padding: 10px 15px;
+  color: #fff;
+  background: rgba(72, 193, 194, 0.95);
+  border-radius: 1px;
+  font-size: 12px;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.greyBg {
+  background: rgba(133, 152, 171, 0.95);
+}
+
+.dateContainer {
+  padding: 0 5px;
+  text-align: left;
+  color: #0D3359;
+  font-weight: bold;
+  margin: 25px 0 15px 0;
+  font-size: 14px;
+}
+
+.container input[type=text] {
+  width: 100%;
+}
+
+.container input {
+  height: 30px;
+  border: none;
+  background: #E8E9EB;
+}
+
+.inputContainer {
+  padding: 15px 0 0 10px;
+  border-bottom: 1px solid #D2D7DC;
+  background: #E8E9EB;
+  text-align: left;
+}
+
+.inputContainer label {
+  text-transform: uppercase;
+  color: #8295A7;
+  font-size: 10px;
+  margin-right: 15px;
+}
+
+.container input:focus {
+  color: #0B3157;
+  caret-color: #43B5B9;
+  font-weight: bold;
+  font-size: 14px;
+  background: #fff;
+}
+
+.inputContainer:focus-within {
+  background: #fff;
+}
+
+.inputContainer:focus-within>input {
+  background: #fff;
+}
+
+::-webkit-datetime-edit-fields-wrapper {
+  font-weight: bold;
+  color: #0B3157;
+}
+
+::-webkit-clear-button,
+::-webkit-calendar-picker-indicator,
+::-webkit-inner-spin-button {
+  display: none;
+}
